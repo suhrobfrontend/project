@@ -1,0 +1,66 @@
+.meet-directors {
+  .main-title {
+    font: 48px "Livvic";
+    font-weight: 700;
+    line-height: 48px;
+    color: $white;
+  }
+
+  .col-inner {
+    background-color: $dark-green;
+    height: 240px;
+    position: relative;
+
+    &:hover .col-inner__userpic {
+      display: none;
+    }
+    &:hover > :nth-child(3) {
+      display: none;
+    }
+    &:hover > :nth-child(4) {
+      display: inline-block;
+    }
+    &:hover .col-inner__btn {
+      background-color: $color-text-aqua;
+      transform: translateX(-50%) translateY(50%) rotate(45deg);
+    }
+
+    &__name {
+      font: 18px "Livvic";
+      font-weight: 700;
+      line-height: 28px;
+      color: $color-text-aqua;
+    }
+
+    &__subtitle {
+      font: 15px "Livvic";
+      font-weight: 400;
+      font-style: italic;
+      line-height: 25px;
+      text-align: center;
+      color: $white;
+
+    }
+
+    :nth-child(4) {
+      width: 50%;
+      margin: 0 auto;
+      display: none;
+      font: 15px "Livvic";
+      font-weight: 600;
+      line-height: 25px;
+      color: $white;
+    }
+
+    &__btn {
+      background: $color-text-pink;
+      padding: 20px 24px 22px;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) translateY(50%);
+    }
+  }
+}

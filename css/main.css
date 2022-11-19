@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Livvic";
+  background-color: #004047;
+}
+
+.meet-directors .main-title {
+  font: 48px "Livvic";
+  font-weight: 700;
+  line-height: 48px;
+  color: #FFF;
+}
+.meet-directors .col-inner {
+  background-color: #012F34;
+  height: 240px;
+  position: relative;
+}
+.meet-directors .col-inner:hover .col-inner__userpic {
+  display: none;
+}
+.meet-directors .col-inner:hover > :nth-child(3) {
+  display: none;
+}
+.meet-directors .col-inner:hover > :nth-child(4) {
+  display: inline-block;
+}
+.meet-directors .col-inner:hover .col-inner__btn {
+  background-color: #79C8C7;
+  transform: translateX(-50%) translateY(50%) rotate(45deg);
+}
+.meet-directors .col-inner__name {
+  font: 18px "Livvic";
+  font-weight: 700;
+  line-height: 28px;
+  color: #79C8C7;
+}
+.meet-directors .col-inner__subtitle {
+  font: 15px "Livvic";
+  font-weight: 400;
+  font-style: italic;
+  line-height: 25px;
+  text-align: center;
+  color: #FFF;
+}
+.meet-directors .col-inner :nth-child(4) {
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+  font: 15px "Livvic";
+  font-weight: 600;
+  line-height: 25px;
+  color: #FFF;
+}
+.meet-directors .col-inner__btn {
+  background: #F67E7E;
+  padding: 20px 24px 22px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%);
+}/*# sourceMappingURL=main.css.map */
